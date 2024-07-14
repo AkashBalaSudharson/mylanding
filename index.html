@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">Computer Services</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-icon" id="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="container">
+            <h1>Welcome to CompuServe</h1>
+            <p>Your one-stop solution for all computer services</p>
+            <a href="#services" class="btn" id="explore-services-btn">Explore Services</a>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="image/computer-repair.jpg" alt="Computer Repair">
+                <h3>Computer Repair</h3>
+                <p>We offer fast and reliable computer repair services to get your device running smoothly again. Our experts can handle hardware and software issues efficiently.</p>
+                <button class="btn" onclick="alertService('Computer Repair')">Learn More</button>
+            </div>
+            <div class="service">
+                <img src="image/network-setup.jpg" alt="Network Setup">
+                <h3>Network Setup</h3>
+                <p>Professional network setup and troubleshooting to ensure seamless connectivity. We provide both wired and wireless network solutions for homes and businesses.</p>
+                <button class="btn" onclick="alertService('Network Setup')">Learn More</button>
+            </div>
+            <div class="service">
+                <img src="image/software-installation.jpg" alt="Software Installation">
+                <h3>Software Installation</h3>
+                <p>Get all your software installed and configured correctly. We handle everything from operating systems to specialized applications, ensuring compatibility and performance.</p>
+                <button class="btn" onclick="alertService('Software Installation')">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of experienced professionals dedicated to providing the best computer services. Our mission is to deliver high-quality solutions that meet your needs and exceed your expectations.</p>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" id="name">
+                <input type="email" placeholder="Your Email" id="email">
+                <textarea placeholder="Your Message" id="message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Computer Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
